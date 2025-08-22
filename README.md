@@ -17,7 +17,7 @@ investor. The common trend towards the stock market among the society is that it
 highly risky for investment or not suitable for trade so most of the people are not even
 interested.
 
-** OBJECTIVE OF THE STUDY** 
+**OBJECTIVE OF THE STUDY** 
 
 To predict the effect of the pandemic on the stock market of top 6 countries and
 to forecast the behavior of stock market. thereby applying the machine learning

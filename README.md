@@ -37,8 +37,9 @@ days to analyze their effects their pros and cons to other economies
 
 **Ours research methodology includes the following aspects :**
 
-STAGE 1
+**STAGE 1**
 (DATA COLLECTION)
+
 Looking for the top performing
 countries
 Analyze their best performing
@@ -46,17 +47,18 @@ stock indices
 Take the suitable one indices
 Collect the historical data of the
 index for past 3 months
-STAGE 2
+**STAGE 2**
 (DATA ANALYSIS)
+
 Using the PYTHON LANGUAGE
 Draw comparison between the death
 rate and market
 Research hypothesis:
- The effect of the COVID -19 is continue to shaken the economies for
+a)The effect of the COVID -19 is continue to shaken the economies for
 next 3 months
- Countries of observations are in the same state as they are during our
+b)Countries of observations are in the same state as they are during our
 prediction Government measures and other external stimulus to revive
 the economy is not taken into the consideration
- The trend of stock market continue to repeat itself .
- The inconsistencies of the data is already taken care off but
+c)The trend of stock market continue to repeat itself .
+d)The inconsistencies of the data is already taken care off but
 uncertainties of future are ignored

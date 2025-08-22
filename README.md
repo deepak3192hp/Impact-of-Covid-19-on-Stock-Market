@@ -1,6 +1,6 @@
 # Impact-of-Covid-19-on-Stock-Market
 
-INTRODUCTION
+**INTRODUCTION**
 
 Stock market prediction using machine learning
 One of the most prominent use cases of machine learning is “Fintech” (Financial
@@ -17,7 +17,7 @@ investor. The common trend towards the stock market among the society is that it
 highly risky for investment or not suitable for trade so most of the people are not even
 interested.
 
-OBJECTIVE OF THE STUDY
+** OBJECTIVE OF THE STUDY** 
 
 To predict the effect of the pandemic on the stock market of top 6 countries and
 to forecast the behavior of stock market. thereby applying the machine learning
@@ -35,8 +35,7 @@ respect to each other.
 To get the clear picture of the market sentiments prevailing in the market now a
 days to analyze their effects their pros and cons to other economies
 
-
-Ours research methodology includes the following aspects :
+**Ours research methodology includes the following aspects :**
 
 STAGE 1
 (DATA COLLECTION)

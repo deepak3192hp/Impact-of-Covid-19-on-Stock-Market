@@ -1,0 +1,36 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1600" y1="0" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" x2="1230" y1="120" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <circle cx="1380" cy="90" r="160" fill="#1D4ED8" fill-opacity="0.18"/>
+  <circle cx="1280" cy="310" r="180" fill="#34D399" fill-opacity="0.10"/>
+  <circle cx="250" cy="320" r="210" fill="#8B5CF6" fill-opacity="0.12"/>
+
+  <g opacity="0.95">
+    <rect x="950" y="100" width="430" height="180" rx="18" fill="#0F172A" stroke="#334155"/>
+    <path d="M990 230 L1030 205 L1070 220 L1115 175 L1165 150 L1205 170 L1280 120 L1320 145" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M990 240 L1030 240 L1070 240 L1115 240 L1165 240 L1205 240 L1280 240 L1320 240" stroke="#94A3B8" stroke-width="2" stroke-dasharray="8 8"/>
+    <circle cx="1030" cy="205" r="6" fill="#5EEAD4"/>
+    <circle cx="1115" cy="175" r="6" fill="#60A5FA"/>
+    <circle cx="1280" cy="120" r="6" fill="#A78BFA"/>
+  </g>
+
+  <g>
+    <text x="120" y="170" fill="#F8FAFC" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700">Impact of COVID-19</text>
+    <text x="120" y="230" fill="#F8FAFC" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700">on the Stock Market</text>
+    <text x="120" y="285" fill="#94A3B8" font-size="24" font-family="Arial, Helvetica, sans-serif">Data analytics • Machine learning • Financial research</text>
+    <rect x="120" y="315" width="250" height="52" rx="26" fill="#2563EB"/>
+    <text x="155" y="349" fill="#F8FAFC" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="600">Research Project</text>
+  </g>
+</svg>

@@ -1,93 +1,108 @@
 # Impact of COVID-19 on the Stock Market
 
-[![Research project](https://img.shields.io/badge/type-research%20project-2563eb)](8.05.2020_PROJECT.pdf)
-[![Topic](https://img.shields.io/badge/topic-fintech%20%7C%20machine%20learning-0f766e)](https://github.com/topics/machine-learning)
-[![License](https://img.shields.io/badge/license-not%20specified-lightgrey)](#license)
+<p align="center">
+  <strong>Exploring the relationship between pandemic indicators and stock-market performance with data analytics and machine learning.</strong>
+</p>
 
-> A research project studying how the COVID-19 pandemic affected stock-market performance across six leading countries, using data analysis, statistics, and machine-learning forecasting.
+<p align="center">
+  <a href="8.05.2020_PROJECT.pdf"><img src="https://img.shields.io/badge/read-project-report-2563eb?style=for-the-badge" alt="Read project report"></a>
+  <img src="https://img.shields.io/badge/domain-fintech-0f766e?style=for-the-badge" alt="Fintech">
+  <img src="https://img.shields.io/badge/type-academic%20research-7c3aed?style=for-the-badge" alt="Academic research">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-16a34a?style=for-the-badge" alt="MIT License"></a>
+</p>
 
-## Overview
+## Why this project?
 
-The COVID-19 pandemic created exceptional uncertainty in financial markets. This project investigates the relationship between pandemic indicators and stock-market behavior, then uses historical observations to explore possible market trends.
+The COVID-19 pandemic introduced an unusual level of uncertainty into global financial markets. This project studies how stock markets in six countries responded during the pandemic and explores whether historical market data and pandemic indicators can help explain or forecast market behavior.
 
-The complete project report is available here:
+> **Important:** This is an academic research project, not financial advice. Historical patterns and model outputs do not guarantee future investment results.
 
-**[Read the full project report (PDF)](8.05.2020_PROJECT.pdf)**
+## Highlights
+
+- Cross-country comparison of stock-market performance.
+- Analysis of pandemic indicators and market movement.
+- Statistical analysis and machine-learning forecasting concepts.
+- Historical research based on the original study period.
+- Full project report available as a PDF.
+
+## Project report
+
+**[Read the complete project report](8.05.2020_PROJECT.pdf)**
+
+The report contains the original objectives, research methodology, assumptions, analysis, and conclusions.
 
 ## Research objectives
 
-- Examine the effect of the pandemic on stock markets in six countries.
+- Examine the pandemic's effect on stock markets in six countries.
 - Compare pandemic-related indicators with stock-market performance.
 - Apply data analytics and statistical methods to historical market data.
 - Explore machine-learning approaches for forecasting market behavior.
-- Study the uncertainty created by lockdowns, shutdowns, and economic disruption.
-- Present findings in a way that can support further financial research.
+- Study market uncertainty caused by lockdowns and economic disruption.
+- Provide a foundation for further financial-data research.
 
 ## Methodology
 
-### Stage 1 — Data collection
+### 1. Data collection
 
-1. Identify high-performing countries and representative stock indices.
+1. Identify representative countries and stock indices.
 2. Select suitable indices for comparison.
-3. Collect historical index data for the selected observation period.
-4. Gather relevant pandemic indicators for comparison.
+3. Collect historical index data for the observation period.
+4. Gather relevant pandemic indicators.
 
-### Stage 2 — Data analysis
+### 2. Data analysis
 
-1. Clean and prepare the market and pandemic datasets.
+1. Clean and prepare the datasets.
 2. Analyze relationships between pandemic indicators and market movement.
 3. Visualize trends and compare country-level behavior.
 4. Apply statistical and machine-learning techniques.
-5. Evaluate the results against real-world observations.
+5. Evaluate findings against real-world observations.
 
-## Research assumptions
+See [`docs/methodology.md`](docs/methodology.md) for the planned reproducible workflow.
 
-The study considers the following assumptions described in the report:
+## Repository structure
 
-- Pandemic-related economic effects may continue beyond the initial observation period.
-- Government measures and external economic stimulus are outside the primary scope of the prediction.
-- Historical market patterns may provide useful—but limited—signals about future movement.
-- Future uncertainty cannot be fully captured by historical data alone.
+```text
+.
+├── 8.05.2020_PROJECT.pdf   # Original project report
+├── data/                    # Dataset documentation and future data files
+├── docs/                    # Research and methodology notes
+├── notebooks/               # Planned exploratory and modeling notebooks
+├── results/                 # Planned charts, metrics, and conclusions
+├── src/                     # Planned reusable analysis code
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
-## Key cautions
+## Research assumptions and limitations
 
-This is an academic research project, not financial advice. Stock-market forecasts are inherently uncertain, and historical performance does not guarantee future results. Any investment decision should use current, verified data and advice from a qualified professional.
+- The analysis reflects the data and assumptions available during the original study period.
+- Government measures, fiscal policy, and external stimulus may affect markets but are outside the primary prediction scope.
+- Historical market patterns provide limited signals about future movement.
+- Correlation between pandemic indicators and market movement does not necessarily imply causation.
+- The project should be treated as historical analysis, not as a current market forecast.
 
-The report reflects the data and assumptions available during the original study period. It should therefore be treated as a historical analysis rather than a current market forecast.
+## Reproducibility roadmap
 
-## Repository contents
+The repository currently provides the completed report. Future updates can make the study fully reproducible by adding:
 
-| File | Description |
-| --- | --- |
-| [`8.05.2020_PROJECT.pdf`](8.05.2020_PROJECT.pdf) | Complete project report |
-| [`README.md`](README.md) | Project overview, methodology, and research context |
-
-## Suggested ways to extend this project
-
-- Add the source datasets and a reproducible data dictionary.
-- Include notebooks or scripts for data cleaning, visualization, and modeling.
-- Document the selected indices, date ranges, and country-level sources.
-- Add model metrics such as MAE, RMSE, or directional accuracy.
-- Compare baseline statistical models with machine-learning models.
-- Refresh the analysis with a clearly labeled post-2020 dataset.
-- Add charts showing market movement before, during, and after major pandemic events.
-
-## Reproducibility
-
-The current repository contains the project report. To make the analysis reproducible, future updates should include the source data, analysis code, environment requirements, and exact steps used to reproduce the reported results.
+- source datasets and a data dictionary;
+- notebooks for exploration and model training;
+- scripts for cleaning, visualization, and evaluation;
+- documented data sources, date ranges, and index symbols;
+- baseline metrics such as MAE, RMSE, and directional accuracy;
+- charts comparing market behavior before, during, and after major events.
 
 ## Citation
 
-If you refer to this work, please cite the repository:
-
 ```text
-Impact of COVID-19 on the Stock Market. GitHub repository:
+Impact of COVID-19 on the Stock Market.
 https://github.com/deepak3192hp/Impact-of-Covid-19-on-Stock-Market
 ```
 
 ## License
 
-No license is currently specified for this repository. If you want others to reuse the report, data, or code, add an appropriate open-source license and confirm that any third-party material is permitted for redistribution.
+This project is available under the [MIT License](LICENSE). The original report and any third-party material remain subject to their applicable rights and attributions.
 
 ## Author
 
